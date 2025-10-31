@@ -138,6 +138,7 @@ setwd("C:/Users/vikgh/Desktop/STAT5129_GroupD_Project"); if(!requireNamespace("r
 - Ensure MySQL is active before running the scripts.
 - The fallback (current_r_dir) path ensures execution even outside RStudio.
 - The Quarto PDF (report.pdf) is automatically generated via GitHub Actions on every push to the main branch. TinyTeX is used to compile the PDF, ensuring reproducibility. The workflow file is located at .github/workflows/render-pdf.yml
+- Github URL: https://github.com/parvesh67/STAT5129_GroupD_Project
 
 ✅ You’re ready to run the full Mauritius Case Study Data workflow!
 "# STAT5129_GroupD_Project" 
