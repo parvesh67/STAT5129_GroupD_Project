@@ -1,0 +1,24 @@
+===== Stage 1: Climate → Sugarcane Yield =====
+
+Call:
+lm(formula = sugarcane_yield_scaled ~ avg_temp_scaled + precip_harvest_scaled, 
+    data = df_scaled)
+
+Residuals:
+       1        2        3        4        5        6        7        8 
+ 0.77532  0.93908 -0.44650  0.13165  0.04592 -0.24136 -0.76711 -0.43701 
+attr(,"scaled:center")
+[1] 68.45
+attr(,"scaled:scale")
+[1] 7.531
+
+Coefficients:
+                        Estimate Std. Error t value Pr(>|t|)
+(Intercept)           -2.246e-16  2.520e-01   0.000    1.000
+avg_temp_scaled        4.256e-01  3.256e-01   1.307    0.248
+precip_harvest_scaled  4.773e-01  3.256e-01   1.466    0.203
+
+Residual standard error: 0.7127 on 5 degrees of freedom
+Multiple R-squared:  0.6372,	Adjusted R-squared:  0.4921 
+F-statistic: 4.391 on 2 and 5 DF,  p-value: 0.07927
+

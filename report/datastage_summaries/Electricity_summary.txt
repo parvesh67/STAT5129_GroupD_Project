@@ -1,0 +1,37 @@
+
+==================== Electricity ====================
+Dimensions (rows x columns): 8 7 
+Column names and types:
+Classes ‘data.table’ and 'data.frame':	8 obs. of  7 variables:
+ $ Year        : int  2015 2016 2017 2018 2019 2020 2021 2022
+ $ Island      : chr  "Island of Mauritius" "Island of Mauritius" "Island of Mauritius" "Island of Mauritius" ...
+ $ Landfill gas: num  20.4 18.7 16.9 22.6 19.8 24.8 19 17.2
+ $ Photovoltaic: num  23.7 26.2 34.2 42.8 118.9 ...
+ $ Wind        : num  NA 14.5 11.9 12.6 12.9 15.1 12.5 13.6
+ $ Coal        : num  1047 1135 1176 1124 1053 ...
+ $ Bagasse     : num  381 368 338 312 323 ...
+ - attr(*, ".internal.selfref")=<externalptr> 
+NULL
+Summary statistics:
+      Year         Island           Landfill gas    Photovoltaic   
+ Min.   :2015   Length:8           Min.   :16.90   Min.   : 23.70  
+ 1st Qu.:2017   Class :character   1st Qu.:18.32   1st Qu.: 32.20  
+ Median :2018   Mode  :character   Median :19.40   Median : 80.85  
+ Mean   :2018                      Mean   :19.93   Mean   : 81.24  
+ 3rd Qu.:2020                      3rd Qu.:20.95   3rd Qu.:133.32  
+ Max.   :2022                      Max.   :24.80   Max.   :136.40  
+                                                                   
+      Wind            Coal           Bagasse     
+ Min.   :11.90   Min.   : 891.6   Min.   :186.4  
+ 1st Qu.:12.55   1st Qu.:1039.0   1st Qu.:274.0  
+ Median :12.90   Median :1088.5   Median :317.4  
+ Mean   :13.30   Mean   :1071.5   Mean   :305.1  
+ 3rd Qu.:14.05   3rd Qu.:1131.2   3rd Qu.:345.4  
+ Max.   :15.10   Max.   :1176.0   Max.   :381.2  
+ NA's   :1                                       
+Missing values per column:
+        Year       Island Landfill gas Photovoltaic         Wind         Coal 
+           0            0            0            0            1            0 
+     Bagasse 
+           0 
+Duplicate rows: 0 

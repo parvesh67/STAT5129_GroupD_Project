@@ -1,0 +1,26 @@
+── Data Summary ────────────────────────
+                           Values          
+Name                       datasets[[name]]
+Number of rows             2922            
+Number of columns          3               
+Key                        NULL            
+_______________________                    
+Column type frequency:                     
+  Date                     1               
+  numeric                  2               
+________________________                   
+Group variables            None            
+
+── Variable type: Date ─────────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate min        max        median    
+1 date                  0             1 2015-01-01 2022-12-31 2018-12-31
+  n_unique
+1     2922
+
+── Variable type: numeric ──────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate  mean   sd   p0   p25   p50   p75 p100
+1 avg_temp              0             1 24.9  2.01 20.1 23.1  24.9  26.7  28.9
+2 total_precip          0             1  2.09 4.46  0    0.25  0.66  1.86 58.5
+  hist 
+1 ▁▇▆▇▅
+2 ▇▁▁▁▁

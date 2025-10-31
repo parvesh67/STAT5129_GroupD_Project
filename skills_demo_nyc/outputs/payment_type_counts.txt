@@ -1,0 +1,8 @@
+# A tibble: 5 × 2
+  payment_type       n
+  <fct>          <int>
+1 Credit Card  2319046
+2 Cash          439191
+3 <NA>          140162
+4 Dispute        46628
+5 No Charge      19597

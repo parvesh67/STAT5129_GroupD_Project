@@ -1,0 +1,18 @@
+---
+title: "STAT5129 Group D Project"
+author: "Mavish GAJADHUR, Parvesh GHOORA, Homeswaree JOWAHEER Saveena KOWLESSUR, Shradha NUCCA GOVEDO"
+date: 31/10/2025
+format: pdf
+---
+
+# Introduction
+
+This report is part of the STAT5129 project.  
+We are testing Quarto rendering to PDF.
+
+# Example Analysis
+
+Here’s a small example of R code inside Quarto:
+
+```{r}
+summary(cars)

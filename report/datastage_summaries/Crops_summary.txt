@@ -1,0 +1,62 @@
+
+==================== Crops ====================
+Dimensions (rows x columns): 1926 14 
+Column names and types:
+Classes ‘data.table’ and 'data.frame':	1926 obs. of  14 variables:
+ $ area_code    : int  137 137 137 137 137 137 137 137 137 137 ...
+ $ area_code_m49: chr  "'480" "'480" "'480" "'480" ...
+ $ area         : chr  "Mauritius" "Mauritius" "Mauritius" "Mauritius" ...
+ $ item_code    : int  1107 1107 1107 1107 1107 1107 1107 1107 572 572 ...
+ $ item_code_cpc: chr  "'02132" "'02132" "'02132" "'02132" ...
+ $ item         : chr  "Asses" "Asses" "Asses" "Asses" ...
+ $ element_code : int  5111 5111 5111 5111 5111 5111 5111 5111 5312 5312 ...
+ $ element      : chr  "Stocks" "Stocks" "Stocks" "Stocks" ...
+ $ year_code    : int  2015 2016 2017 2018 2019 2020 2021 2022 2015 2016 ...
+ $ year         : int  2015 2016 2017 2018 2019 2020 2021 2022 2015 2016 ...
+ $ unit         : chr  "An" "An" "An" "An" ...
+ $ value        : num  60 60 60 60 60 60 60 60 NA NA ...
+ $ flag         : chr  "I" "E" "I" "I" ...
+ $ note         : chr  "" "" "" "" ...
+ - attr(*, ".internal.selfref")=<externalptr> 
+NULL
+Summary statistics:
+   area_code   area_code_m49          area             item_code    
+ Min.   :137   Length:1926        Length:1926        Min.   :   27  
+ 1st Qu.:137   Class :character   Class :character   1st Qu.:  401  
+ Median :137   Mode  :character   Mode  :character   Median :  866  
+ Mean   :137                                         Mean   : 1058  
+ 3rd Qu.:137                                         3rd Qu.: 1080  
+ Max.   :137                                         Max.   :17530  
+                                                                    
+ item_code_cpc          item            element_code    element         
+ Length:1926        Length:1926        Min.   :5111   Length:1926       
+ Class :character   Class :character   1st Qu.:5312   Class :character  
+ Mode  :character   Mode  :character   Median :5412   Mode  :character  
+                                       Mean   :5398                     
+                                       3rd Qu.:5510                     
+                                       Max.   :5513                     
+                                                                        
+   year_code         year          unit               value          
+ Min.   :2015   Min.   :2015   Length:1926        Min.   :      0.0  
+ 1st Qu.:2016   1st Qu.:2016   Class :character   1st Qu.:    125.8  
+ Median :2018   Median :2018   Mode  :character   Median :   1200.0  
+ Mean   :2018   Mean   :2018                      Mean   :  36251.7  
+ 3rd Qu.:2020   3rd Qu.:2020                      3rd Qu.:   8178.5  
+ Max.   :2022   Max.   :2022                      Max.   :4009232.0  
+                                                  NA's   :48         
+     flag               note          
+ Length:1926        Length:1926       
+ Class :character   Class :character  
+ Mode  :character   Mode  :character  
+                                      
+                                      
+                                      
+                                      
+Missing values per column:
+    area_code area_code_m49          area     item_code item_code_cpc 
+            0             0             0             0             0 
+         item  element_code       element     year_code          year 
+            0             0             0             0             0 
+         unit         value          flag          note 
+            0            48             0             0 
+Duplicate rows: 0 

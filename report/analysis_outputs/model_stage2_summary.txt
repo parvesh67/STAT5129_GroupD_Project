@@ -1,0 +1,27 @@
+===== Stage 2: Sugarcane Yield → Bagasse =====
+
+Call:
+lm(formula = bagasse_scaled ~ poly(year, 2) + sugarcane_yield_scaled, 
+    data = df_scaled)
+
+Residuals:
+       1        2        3        4        5        6        7        8 
+ 0.08810  0.07344 -0.23825 -0.17030  0.07039  0.24141  0.12110 -0.18590 
+attr(,"scaled:center")
+[1] 305.1
+attr(,"scaled:scale")
+[1] 64.14
+
+Coefficients:
+                         Estimate Std. Error t value Pr(>|t|)   
+(Intercept)             1.437e-16  8.127e-02   0.000  1.00000   
+poly(year, 2)1         -2.082e+00  4.324e-01  -4.816  0.00855 **
+poly(year, 2)2         -4.551e-01  2.375e-01  -1.916  0.12780   
+sugarcane_yield_scaled  2.041e-01  1.650e-01   1.237  0.28377   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2299 on 4 degrees of freedom
+Multiple R-squared:  0.9698,	Adjusted R-squared:  0.9472 
+F-statistic: 42.82 on 3 and 4 DF,  p-value: 0.001692
+

@@ -1,0 +1,6 @@
+project:
+  type: default
+
+format:
+  pdf:
+    documentclass: article

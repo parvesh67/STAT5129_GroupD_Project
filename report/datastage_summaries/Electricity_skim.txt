@@ -1,0 +1,32 @@
+── Data Summary ────────────────────────
+                           Values          
+Name                       datasets[[name]]
+Number of rows             8               
+Number of columns          7               
+Key                        NULL            
+_______________________                    
+Column type frequency:                     
+  character                1               
+  numeric                  6               
+________________________                   
+Group variables            None            
+
+── Variable type: character ────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate min max empty n_unique whitespace
+1 Island                0             1  19  19     0        1          0
+
+── Variable type: numeric ──────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate   mean    sd     p0    p25    p50    p75
+1 Year                  0         1     2018.   2.45 2015   2017.  2018.  2020. 
+2 Landfill gas          0         1       19.9  2.68   16.9   18.3   19.4   21.0
+3 Photovoltaic          0         1       81.2 53.5    23.7   32.2   80.8  133. 
+4 Wind                  1         0.875   13.3  1.16   11.9   12.6   12.9   14.0
+5 Coal                  0         1     1071.  90.7   892.  1039   1088.  1131. 
+6 Bagasse               0         1      305.  64.1   186.   274    317.   345. 
+    p100 hist 
+1 2022   ▇▃▇▃▇
+2   24.8 ▅▇▂▂▂
+3  136.  ▇▁▁▁▇
+4   15.1 ▇▇▃▁▇
+5 1176   ▂▁▆▁▇
+6  381.  ▂▂▂▇▅

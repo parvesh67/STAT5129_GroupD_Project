@@ -1,0 +1,14 @@
+ tpep_pickup_datetime          tpep_dropoff_datetime         passenger_count trip_distance        fare_amount     
+ Min.   :2003-01-01 02:59:39   Min.   :2003-01-01 03:05:41   Min.   :0.000   Min.   :    0.010   Min.   :-899.00  
+ 1st Qu.:2024-01-09 19:43:24   1st Qu.:2024-01-09 20:00:11   1st Qu.:1.000   1st Qu.:    1.000   1st Qu.:   8.60  
+ Median :2024-01-17 14:48:38   Median :2024-01-17 15:06:42   Median :1.000   Median :    1.690   Median :  12.80  
+ Mean   :2024-01-17 05:18:08   Mean   :2024-01-17 05:33:02   Mean   :1.339   Mean   :    3.297   Mean   :  17.97  
+ 3rd Qu.:2024-01-24 22:49:31   3rd Qu.:2024-01-24 23:04:14   3rd Qu.:1.000   3rd Qu.:    3.120   3rd Qu.:  19.80  
+ Max.   :2024-02-01 04:01:15   Max.   :2024-02-01 05:10:21   Max.   :9.000   Max.   :15400.320   Max.   :1616.50  
+   tip_amount       payment_type   trip_duration    
+ Min.   :-80.000   Min.   :1.000   Min.   :-13.567  
+ 1st Qu.:  1.000   1st Qu.:1.000   1st Qu.:  7.183  
+ Median :  2.800   Median :1.000   Median : 11.583  
+ Mean   :  3.429   Mean   :1.211   Mean   : 14.893  
+ 3rd Qu.:  4.200   3rd Qu.:1.000   3rd Qu.: 18.617  
+ Max.   :422.700   Max.   :4.000   Max.   :238.717  

@@ -1,0 +1,22 @@
+
+==================== NASA ====================
+Dimensions (rows x columns): 2922 3 
+Column names and types:
+Classes ‘data.table’ and 'data.frame':	2922 obs. of  3 variables:
+ $ date        : Date, format: "2015-01-01" "2015-01-02" ...
+ $ avg_temp    : num  27.8 27.8 28 28.4 28.6 ...
+ $ total_precip: num  0.68 0.18 0.19 0.31 0.18 ...
+ - attr(*, ".internal.selfref")=<externalptr> 
+NULL
+Summary statistics:
+      date               avg_temp      total_precip   
+ Min.   :2015-01-01   Min.   :20.08   Min.   : 0.000  
+ 1st Qu.:2016-12-31   1st Qu.:23.06   1st Qu.: 0.250  
+ Median :2018-12-31   Median :24.91   Median : 0.660  
+ Mean   :2018-12-31   Mean   :24.89   Mean   : 2.090  
+ 3rd Qu.:2020-12-30   3rd Qu.:26.73   3rd Qu.: 1.857  
+ Max.   :2022-12-31   Max.   :28.90   Max.   :58.460  
+Missing values per column:
+        date     avg_temp total_precip 
+           0            0            0 
+Duplicate rows: 0 

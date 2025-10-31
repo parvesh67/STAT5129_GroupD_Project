@@ -1,0 +1,14 @@
+"element_code","element","unit","orig_unit","unit_match"
+5111,"Stocks","An","An",TRUE
+5112,"Stocks","1000 An","1000 An",TRUE
+5312,"Area harvested","ha","ha",TRUE
+5313,"Laying","1000 An","1000 An",TRUE
+5318,"Milk Animals","An","An",TRUE
+5320,"Producing Animals/Slaughtered","An","An",TRUE
+5321,"Producing Animals/Slaughtered","1000 An","1000 An",TRUE
+5412,"Yield","kg/ha","kg/ha",TRUE
+5413,"Yield","No/An","No/An",TRUE
+5417,"Yield/Carcass Weight","kg/An","kg/An",TRUE
+5424,"Yield/Carcass Weight","g/An","g/An",TRUE
+5510,"Production","t","t",TRUE
+5513,"Production","1000 No","1000 No",TRUE

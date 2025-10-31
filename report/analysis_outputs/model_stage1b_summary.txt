@@ -1,0 +1,27 @@
+===== Stage 1b: Climate + Area → Sugarcane Production =====
+
+Call:
+lm(formula = sugarcane_prod_scaled ~ avg_temp_scaled + precip_harvest_scaled + 
+    area_harvested_scaled, data = df_scaled)
+
+Residuals:
+       1        2        3        4        5        6        7        8 
+ 0.15544  0.12889 -0.17943 -0.23896  0.16882 -0.10737 -0.06561  0.13820 
+attr(,"scaled:center")
+[1] 3203515
+attr(,"scaled:scale")
+[1] 635482
+
+Coefficients:
+                       Estimate Std. Error t value Pr(>|t|)    
+(Intercept)           2.455e-16  7.776e-02   0.000 1.000000    
+avg_temp_scaled       2.033e-01  1.005e-01   2.022 0.113232    
+precip_harvest_scaled 9.707e-02  1.134e-01   0.856 0.440228    
+area_harvested_scaled 8.470e-01  9.766e-02   8.673 0.000973 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.2199 on 4 degrees of freedom
+Multiple R-squared:  0.9724,	Adjusted R-squared:  0.9516 
+F-statistic:  46.9 on 3 and 4 DF,  p-value: 0.00142
+

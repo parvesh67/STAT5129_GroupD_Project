@@ -1,0 +1,39 @@
+── Data Summary ────────────────────────
+                           Values          
+Name                       datasets[[name]]
+Number of rows             1926            
+Number of columns          14              
+Key                        NULL            
+_______________________                    
+Column type frequency:                     
+  character                8               
+  numeric                  6               
+________________________                   
+Group variables            None            
+
+── Variable type: character ────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate min max empty n_unique whitespace
+1 area_code_m49         0             1   4   4     0        1          0
+2 area                  0             1   9   9     0        1          0
+3 item_code_cpc         0             1   5   9     0      105          0
+4 item                  0             1   4 128     0      105          0
+5 element               0             1   5  29     0        8          0
+6 unit                  0             1   1   7     0        9          0
+7 flag                  0             1   1   1     0        5          0
+8 note                  0             1   0  17  1916        2          0
+
+── Variable type: numeric ──────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate   mean        sd   p0   p25  p50   p75
+1 area_code             0         1       137       0     137  137   137  137 
+2 item_code             0         1      1058.   1929.     27  401   866 1080 
+3 element_code          0         1      5398.    111.   5111 5312  5412 5510 
+4 year_code             0         1      2018.      2.29 2015 2016. 2018 2020 
+5 year                  0         1      2018.      2.29 2015 2016. 2018 2020 
+6 value                48         0.975 36252. 300138.      0  126. 1200 8178.
+     p100 hist 
+1     137 ▁▁▇▁▁
+2   17530 ▇▁▁▁▁
+3    5513 ▂▁▇▆▇
+4    2022 ▇▅▇▃▇
+5    2022 ▇▅▇▃▇
+6 4009232 ▇▁▁▁▁
